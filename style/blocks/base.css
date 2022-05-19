@@ -1,0 +1,142 @@
+html {
+	font-size: 16px;
+	height: 100%;
+	
+}
+
+body, html {
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	background: #001821;
+}
+
+button {
+	cursor: pointer;
+}
+
+* {box-sizing: border-box;}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+ul li {list-style: none;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	margin-top: 0;
+}
+
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.main-page-wrapper {
+	background: url(/img/fon1.jpg) center top no-repeat;
+}
+
+.wrapper__content {
+	flex: 1;
+	position: relative;
+	background: url(./img/fon1.jpg);
+	background-repeat: no-repeat;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	max-width: 1142px;
+}
+
+.button {
+	cursor: pointer;
+	border-radius: 4px;
+	font-weight: bold;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+.button--red {
+	background:#f00707;
+    padding: 18px 39px;
+}
+
+.button--red:hover {
+	background:#ffffff
+}
+
+.button--white {
+	background:#ffffff;
+    padding: 18px 39px;
+}
+.button--white:hover {
+	background:#f00707;
+}
+
+.paginator {
+	text-align: center;
+}
+
+.paginator__display, .paginator__list {
+	display: inline-block;
+	vertical-align: middle;
+}
+.paginator__display {
+	margin-right: 26px;
+}
+.paginator__item {
+	display: inline-block;
+	vertical-align: middle;
+}
+.paginator__link {
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	position: relative;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 32px;
+}
+.paginator__item--active {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	position: relative;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 32px;
+	background: #f80000
+}

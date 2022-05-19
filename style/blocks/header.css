@@ -1,0 +1,44 @@
+.header {
+	height: 150px;
+	position: relative;
+	margin: 0 auto;
+	width: 1141px;
+	margin-bottom: 100px;
+}
+.logo {
+	display: block;
+	width: 85px;
+	height: 36px;
+}
+.menu {
+	position: absolute;
+	top: 20px;
+	left: 200px;
+}
+
+.contacts {
+	font-style: normal;
+	position: absolute;
+	top: 48px;
+	right: 0;
+}
+
+.menu__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+
+.menu__link {
+	font-size: 14px;
+}
+
+.contacts__phone {
+	font-size: 26px;
+	margin-bottom: 4px;
+}
+
+.contacts__info {
+	font-size: 13px;
+	text-decoration:underline;
+}
