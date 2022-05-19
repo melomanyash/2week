@@ -1,48 +1,8 @@
 .footer-container__content {
     border-top: 1px solid #9A9A9A;
-}
-.footer {
-	height: 152px;
-	position: relative;
-	margin: 0 auto;
-	width: 1150px;
-	margin-bottom: 150px;
-}
-
-.logo {
-	display: block;
-	position: absolute;
-	top: 57px;
-	left: 0px;
-}
-
-.menu {
-	position: absolute;
-	top: 65px;
-	left: 250px;
-}
-
-.contacts {
-	position: absolute;
-    font-style: normal;
-    text-align: right;
-	top: 48px;
-	right: 0;
-}
-
-.menu__item {
-	display: inline-block;
-	vertical-align: middle;
-	margin-right: 50px;
-}
-
-.menu__link {
-	font-size: 14px;
-}
-
-.contacts__phone {
-	font-size: 26px;
-	margin-bottom: 4px;
+    height: 92px;
+    position: relative;
+    margin-bottom: 57px;
 }
 
 .contacts__text {
@@ -50,8 +10,8 @@
 }
 .socials {
     position: absolute;
-    top: 53px;
-    right: 300px;
+    top: 34px;
+    right: 262px;
 }
 
 .socials__item {
