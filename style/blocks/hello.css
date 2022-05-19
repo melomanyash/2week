@@ -1,6 +1,6 @@
 
 .hello {
-    margin-bottom: 250px;
+    margin-bottom: 262px;
 }
 .hello__title {
     width: 511px;
@@ -8,10 +8,9 @@
     font-weight: bold;
     line-height: 1,2;
     margin-bottom: 28px;
-
 }
 
 .hello__subtitle {
     font-size: 18px;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }

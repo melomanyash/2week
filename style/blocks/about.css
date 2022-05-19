@@ -2,20 +2,21 @@
     content: "";
     display: inline-block;
     vertical-align: top;
-    width: 488px;
-    height: 502px;
-    background: url(/./img/about--gates.png);
+    width: 490px;
+    height: 505px;
+    background: url(../../img/about--gates.png);
 }
 .about__content {
-    background: url(/./img/about--mountains.png) center center / cover no-repeat;
-    padding: 80px 98px;
-    width: 780px;
-    margin-left: -142px;
-    margin-top: 184px;
+    background: url(../../img/about--mountains.png) center center / cover no-repeat;
+    padding: 70px 80px;
+    width: 785px;
+    height: 455px;
+    margin-left: -140px;
+    margin-top: 96px;
     display: inline-block;
     vertical-align: top;
     color: black;
-    margin-bottom: 38px;
+    margin-bottom: 55px;
 }
 .title--dark {
     font-weight: bold;
@@ -23,7 +24,7 @@
     margin-bottom: 40px;
 }
 .about__text {
-    margin-bottom: 42px;
+    margin-bottom: 105px;
 }
 .about__text p {
     margin-bottom: 20px;

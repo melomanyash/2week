@@ -1,12 +1,11 @@
 .offers {
-    margin-bottom: 138px;
-
+    margin-bottom: 110px;
 }
 
 .title--fire {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 45px;   
+    margin-bottom: 45px;
 }
 .title--fire:before {
     content: "";
@@ -15,7 +14,7 @@
     display: inline-block;
     position: relative;
     left: 300px;
-    background: url(/./img/offers--flame.png);
+    background: url(../../img/offers--flame.png);
 }
 
 .offers__list {
@@ -37,7 +36,7 @@
 }
 .offers__content {
     padding: 36px 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .offers__title {
     min-height: 44px;
